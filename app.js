@@ -6,7 +6,7 @@ app.set('view engine','ejs');
 app.set('views','views');
 app.use(bodyparser())
 
-
+console.log("hello adarsh")
 app.use(require("./controller/default"));
 app.listen(2000,function(){
     console.log("server start")
